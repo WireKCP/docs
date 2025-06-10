@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: '/logo.jfif', alt: 'WireKCP Logo'},
+    logo: { src: 'logo.jfif', alt: 'WireKCP Logo'},
 
     nav: [
       { text: 'Home', link: '/' },
