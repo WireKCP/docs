@@ -7,6 +7,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/jfif', href: '/logo.jfif' }],
   ],
+  base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/logo.jfif', alt: 'WireKCP Logo'},
