@@ -18,9 +18,9 @@ hero:
     alt: WireKCP Logo
 
 features:
-  - icon: 🚀
-    title: Fast and Reliable
-    details: WireKCP uses KCP protocol to ensure low latency and high throughput.
+  - icon: 🦾
+    title: Stable and Reliable
+    details: WireKCP uses KCP protocol to ensure low latency and reliable connections.
   - icon: 🔒
     title: Secure
     details: Built on WireGuard, it provides state-of-the-art encryption.
