@@ -15,9 +15,14 @@ binary from the [WireKCP releases page](https://github.com/wirekcp/wirekcp/relea
 1. Download the latest binary from the releases page or click [here](https://github.com/wirekcp/wirekcp/releases/latest/download/wirekcp_linux_amd64.deb) to download the binary directly.
 2. Open a terminal and navigate to the directory where you downloaded the binary.
 3. Run the following command to install WireKCP:
-   ```bash
-   sudo apt install ./wirekcp_linux_amd64.deb
-   ```
+   - Ubuntu/Debian:
+      ```bash
+      sudo apt install ./wirekcp_linux_amd64.deb
+      ```
+   - Fedora/RHEL:
+      ```bash
+      sudo dnf install ./wirekcp_linux_amd64.rpm
+      ```
 
 ## Up and Running
 ### Windows
