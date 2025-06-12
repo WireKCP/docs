@@ -1,9 +1,9 @@
 # Additional Resources
 
 ## Wireshark Packet Dissector
-- For KCP protocol analysis, you can use the Wireshark dissector available at [Wireshark KCP Dissector](/kcp_dissector.lua).
+- For KCP protocol analysis, you can use the Wireshark dissector available at [Wireshark KCP Dissector](https://wirekcp.github.io/docs/kcp_dissector.lua).
 - This Lua script can be used to dissect KCP packets in Wireshark, providing insights into the protocol's behavior and performance.
-- For KCP protocol with FEC (Forward Error Correction), you can use the [Wireshark KCP FEC Dissector](/kcp_fec_dissector.lua).
+- For KCP protocol with FEC (Forward Error Correction), you can use the [Wireshark KCP FEC Dissector](https://wirekcp.github.io/docs/kcp_fec_dissector.lua).
 - This script extends the KCP dissector to handle FEC packets, allowing for detailed analysis of error correction mechanisms in KCP.
 
 ## How to Use the Dissector
