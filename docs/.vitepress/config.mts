@@ -27,9 +27,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples',
+        text: 'Additional Resources',
         items: [
-          { text: 'Configuration Examples', link: '/configuration-examples' }
+          { text: 'Configuration Examples', link: '/configuration-examples' },
+          { text: 'Resources', link: '/additional-resources' }
         ]
       }
     ],
