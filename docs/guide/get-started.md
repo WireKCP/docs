@@ -73,3 +73,6 @@ To test your connection, you can use the `ping` command to check connectivity to
 ping <remote-tunnel-ip>
 ```
 Replace `<remote-tunnel-ip>` with the IP address of the device you want to ping.
+
+### Further Reading
+For more advanced usage and configuration options, you can refer to the [Advanced Commands](/guide/advanced) section of the documentation.

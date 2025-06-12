@@ -1,16 +1,17 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+const BASE = '/docs/'
 export default defineConfig({
   title: "WireKCP",
   description: "A KCP-based WireGuard VPN.",
   head: [
-    ['link', { rel: 'icon', type: 'image/jfif', href: '/logo.jfif' }],
+    ['link', { rel: 'icon', type: 'image/jfif', href: `${BASE}logo.jfif` }],
   ],
-  base: '/docs/',
+  base: BASE,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: 'logo.jfif', alt: 'WireKCP Logo'},
+    logo: { src: `/logo.jfif`, alt: 'WireKCP Logo'},
 
     nav: [
       { text: 'Home', link: '/' },
@@ -21,7 +22,8 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'Getting Started', link: '/guide/get-started' }
+          { text: 'Getting Started', link: '/guide/get-started' },
+          { text: 'Advanced Commands', link: '/guide/advanced' }
         ]
       },
       {
@@ -33,7 +35,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/wirekcp/wirekcp' }
     ]
   }
 })
