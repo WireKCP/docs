@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "WireKCP"
   text: "A KCP-based WireGuard VPN"
-  tagline: "Fast, secure, and easy to use."
+  tagline: "Stable, secure, and easy to use."
   actions:
     - theme: brand
       text: Get Started
