@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-const BASE = '/docs/'
+const BASE = '/'
 export default defineConfig({
   title: "WireKCP",
   description: "A KCP-based WireGuard VPN.",
